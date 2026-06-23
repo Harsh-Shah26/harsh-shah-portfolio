@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Harsh Shah</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo"><span>&lt;/&gt;</span> Harsh Shah</a>
+
+    <nav class="navbar">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects" class="active">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="assets/Harsh_Shah_Resume.pdf" class="resume-btn" download>
+        Download Resume <i class="fa-solid fa-download"></i>
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="projects-page">
+    <a href="index.html#projects" class="back-home"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
+
+    <div class="page-head">
+      <h1>All <span>Projects</span></h1>
+      <p>
+        This page is for future projects. Whenever you build a new Django, DRF, API,
+        or full-stack project, duplicate one project card below and replace the title,
+        description, tags, GitHub link and live demo link.
+      </p>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="project-img woox">
+          <span class="live">LIVE</span>
+          <h3>Explore The World<br>With Woox Travel</h3>
+        </div>
+        <div class="project-body">
+          <h3>Woox Travel</h3>
+          <p>A full-stack travel website built with Django. Users can explore packages, book trips and manage bookings.</p>
+          <div class="tags"><span>Django</span><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+          <div class="project-links">
+            <a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="#">GitHub <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img blog"><h3>Welcome to Our Blog</h3></div>
+        <div class="project-body">
+          <h3>Django Blog</h3>
+          <p>A blog application with user authentication, CRUD operations, categories and comments.</p>
+          <div class="tags"><span>Django</span><span>Auth</span><span>CRUD</span></div>
+          <div class="project-links">
+            <a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="#">GitHub <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img jwt"><h3>Secure APIs<br>with JWT<br>Authentication</h3></div>
+        <div class="project-body">
+          <h3>JWT Authentication API</h3>
+          <p>A Django REST API project with JWT Authentication for secure user login and protected routes.</p>
+          <div class="tags"><span>DRF</span><span>JWT</span><span>API</span></div>
+          <div class="project-links">
+            <a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="#">GitHub <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img jwt"><h3>Future Project<br>Coming Soon</h3></div>
+        <div class="project-body">
+          <h3>Future Django Project</h3>
+          <p>Use this card later for your next strong Django or DRF project.</p>
+          <div class="tags"><span>Django</span><span>DRF</span><span>API</span></div>
+          <div class="project-links">
+            <a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="#">GitHub <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
