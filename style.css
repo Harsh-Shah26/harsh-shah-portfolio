@@ -1081,3 +1081,13 @@ body.light-theme .projects-page .page-head span {
 body.light-theme .back-home {
   color: #fff;
 }
+
+
+.contact-info a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    color: var(--primary-color);
+}
