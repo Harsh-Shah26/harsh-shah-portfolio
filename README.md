@@ -66,7 +66,7 @@ SPI: 9.0 / 10
 ## 📫 Connect With Me
 
 LinkedIn:
-https://www.linkedin.com/in/harsh-shah
+https://www.linkedin.com/in/harsh-shah-django/
 
 GitHub:
 https://github.com/Harsh-Shah26
